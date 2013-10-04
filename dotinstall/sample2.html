@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScriptの勉強</title>
+</head>
+<body>
+	<h1>JavaScriptの勉強</h1>
+	<script>
+		var message;
+		message = "hello, world!";
+		alert(message + " Happy!");
+
+		var i = 0;
+		while(i < 10){
+			console.log(i);
+			i++;
+		}
+
+		// 関数
+		function sum(a,b){
+			return (a + b);
+		}
+		var result = sum(50, 33);
+		console.log("result = " + result);
+
+		// 配列、連想配列
+		var hoge = [100, 150, 200];
+		var fuga = {'apple':100, 'orange':150}
+
+		console.log(hoge[1]);
+		console.log(fuga["orange"]);
+
+	</script>
+</body>
+</html>
