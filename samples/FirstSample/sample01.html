@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>jQueryの練習</title>
+</head>
+<body>
+	<p>jQueryの練習</p>
+	<script src="../jquery-2.0.1.min.js"></script>
+	<ul id="main">
+		<li>0</li>
+		<li class="item">1</li>
+		<li class="item">2</li>
+		<li>
+			3
+			<ul id="sub">
+				<li>3-0</li>
+				<li>3-1</li>
+				<li class="item">3-2</li>
+				<li class="item">3-3</li>
+				<li>3-4</li>
+			</ul>
+		</li>
+	</ul>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, nam, harum commodi in rerum magni molestiae doloribus recusandae temporibus impedit quos distinctio incidunt at eligendi voluptate blanditiis voluptatum eius fugit.</p>
+	<p>Repellat, perferendis, repudiandae, quae, cupiditate et nobis ex alias ratione natus consequuntur fugit nostrum! Asperiores, quas, quia, nisi, ea iusto omnis quisquam hic itaque quidem sint dolorem sunt sit quod!</p>
+	<script>
+		//$(document).ready(function(){
+		$(function(){	
+			$('p').css('color', 'red');
+		});
+		$(function(){
+			$('#sub').css("color","red");
+			$('#main .item').css("color", "blue");
+		});
+	</script>
+</body>
+
+</html>

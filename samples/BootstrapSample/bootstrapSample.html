@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<title>Bootstrap Sample</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<script type="text/javascript" src="../../jquery-2.0.1.min.js"></script>
+	<script type="text/javascript" src="../../bootstrap-3.0.3/js/bootstrap.js"></script>
+</head>
+<body>
+	<div id="header" class="container" style="background-color: red;">ヘッダー</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3 hidden-xs" style="background-color: green;">サイドバー1</div>
+			<div class="col-sm-6 col-xs-6">
+				<table class="table table-striped table-bordered table-hover table-condensed">
+					<thead>
+						<tr>
+							<th>ID</th><th>Score</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr><td>hoge</td><td>200</td></tr>
+						<tr><td>fuga</td><td>300</td></tr>
+						<tr><td>piyo</td><td>400</td></tr>
+					</tbody>
+				</table>
+
+				<div class="btn-group">
+					<button class="btn btn-primary"><i class="glyphicon glyphicon-home"></i>Push Me!</button>
+					<button class="btn btn-success"><i class="glyphicon glyphicon-search"></i>Push Me!</button>
+					<button class="btn btn-info"><i class="glyphicon glyphicon-send"></i>Push Me!</button>
+				</div>
+
+				<form class="form-horizontal">
+					<div class="form-group" >
+						<label class="control-label col-sm-2" for="email">Email</label>
+						<div class="col-sm-4">
+							<input type="text" id="email" class="form-control" placeholder="email">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-4">
+							<input type="submit" class="btn btn-primary">
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-sm-3 col-xs-6" style="background-color: pink;">サイドバー2</div>
+		</div>
+	</div>
+	<div id="footer" class="container" style="background-color: gray;">フッター</div>
+</body>
+</html>

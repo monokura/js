@@ -1,0 +1,19 @@
+#bgimage1, #bgimage2, #bgimage3{
+	z-index:50;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#bgimage1{
+	background-image : url(res/image/bubbles1.png);
+}
+
+#bgimage2{
+	background-image : url(res/image/bubbles2.png);
+}
+
+#bgimage3{
+	background-image : url(res/image/bubbles3.png);
+}
